@@ -1,7 +1,8 @@
+#include <Arduino.h>
 // Test for M5Stack ENV HAT, showing temperature and humidity from DHT12 sensor.
 // there is also output from JSON to serial port
 
-#include <Arduino.h>
+
 #include <M5StickC.h>
 #include "DHT12.h"
 #include <Wire.h> //The DHT12 uses I2C comunication.
